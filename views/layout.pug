@@ -1,0 +1,21 @@
+doctype html
+html(lang="fr")
+    head
+        link(href="/css/bootstrap.min.css", rel="stylesheet")
+        link(href="/css/product.css", rel="stylesheet")
+        link(href="/css/main.css", rel="stylesheet")
+        link(rel="icon", href="/blog/public/img/favicon.png")
+        meta(charset="utf-8")
+        title.alert Mon blog
+    body.container-fluid
+        nav.site-header.sticky-top.py-1
+            div.d-flex.flex-column.flex-md-row.justify-content-between
+                a(href="/", class="py-2 d-none d-md-inline-block") Accueil
+                a(href="/contact" class="py-2 d-none d-md-inline-block") Contact
+        //- nav.navbar.navbar-inverse
+        //-     li
+        //-         a(href="/", class="py-2 d-none d-md-inline-block") Accueil
+        //-     li
+        //-         a(href="/contact" class="py-2 d-none d-md-inline-block") Contact
+
+        block content

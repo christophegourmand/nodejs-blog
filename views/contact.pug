@@ -1,0 +1,21 @@
+extends layout
+
+block content
+    //- ce que j'ai fait______________________
+    //- input(type="text", name="prenom")
+    //- input(type="text", name="Nom de Famille")
+    //- input(type="date", name="date de naissance")
+    //- input(type="submit", value="VALIDER")
+
+    //- Correction _________________________
+    h1 Contact
+    .container
+    form(method="post")
+        .form-group
+            label Titre
+            input(class="form-control" type="text" name="title")
+        .form-group
+            label Contenu
+            input(class="form-control" type="text" name="content")
+        .form-group
+            input(class="btn btn-alert" type="submit" name="Envoyer")

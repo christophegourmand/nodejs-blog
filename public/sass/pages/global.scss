@@ -1,0 +1,14 @@
+body{
+    background: $primary_color;
+    color: $white;
+
+    ul{
+        list-style: none;
+    }
+
+    article{
+        img{
+            opacity: 0.5;
+        }
+    }
+}
