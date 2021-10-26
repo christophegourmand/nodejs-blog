@@ -1,5 +1,4 @@
 const express = require('express'); // on appelle la dépendance "express". 
-// 'express" est un peu le laravelle, le symfony, de nodejs.
 
 const bodyParser = require('body-parser');
 const favicon = require('serve-favicon');
